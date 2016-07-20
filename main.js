@@ -6,5 +6,10 @@ function generate() {
 }
 
 $("#sayBtn").click(function() {
-  $("#saySpan").text(generate());
+  var g = generate()
+  var s = $("#saySpan")
+  while (g === s.text()) {
+    g = generate()
+  }
+  s.text(g);
 })
