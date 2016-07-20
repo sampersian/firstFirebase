@@ -1,0 +1,40 @@
+body {
+  background-color: navy;
+}
+
+header {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.aDiv {
+  text-align: center;
+  margin: 25px auto;
+}
+
+#sayBtn {
+  padding: 5px;
+  font-family: fantasy;
+  border-radius: 5px;
+  background-color: lightgreen;
+  color: black;
+  font-weight:bolder;
+}
+
+#saySpan {
+  font-family: serif;
+  font-size: 20px;
+  color: red;
+}
+
+/*#saySpan::before {
+  content: "\"";
+}
+
+#saySpan::after {
+  content: "\"";
+}*/
+
+main {
+  color: white;
+}
